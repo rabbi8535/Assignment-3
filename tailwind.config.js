@@ -12,7 +12,8 @@ tailwind.config = {
                 'header_2': 'rgba(255, 255, 255,0)',
                 'section':'rgb(244, 244, 244)',
                 'section_1':'rgb(255, 255, 255)',
-                'section_2':'rgb(115, 115, 115)'
+                'section_2':'rgb(115, 115, 115)',
+                'font':'rgb(115, 115, 115)'
 
             },
             /* custom font */
