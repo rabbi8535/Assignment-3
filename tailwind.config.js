@@ -10,6 +10,9 @@ tailwind.config = {
                 'black_ar' : 'rgb(28, 28, 28)',
                 'header_1': 'rgba(245, 245, 245)',
                 'header_2': 'rgba(255, 255, 255,0)',
+                'section':'rgb(244, 244, 244)',
+                'section_1':'rgb(255, 255, 255)',
+                'section_2':'rgb(115, 115, 115)'
 
             },
             /* custom font */
