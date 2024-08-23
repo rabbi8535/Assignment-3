@@ -13,7 +13,11 @@ tailwind.config = {
                 'section':'rgb(244, 244, 244)',
                 'section_1':'rgb(255, 255, 255)',
                 'section_2':'rgb(115, 115, 115)',
-                'font':'rgb(115, 115, 115)'
+                'font':'rgb(115, 115, 115)',
+                'card_1': 'rgb(231, 193, 211)',
+                'card_2': 'rgb(239, 218, 110)',
+                'card_3': 'rgb(164, 218, 195)',
+                'card_4': 'rgb(119, 170, 234)'
 
             },
             /* custom font */
