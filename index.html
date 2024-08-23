@@ -4,22 +4,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assaignment-3</title>
     <!--fontawsome-->
     <script src="https://kit.fontawesome.com/8bc3e13147.js" crossorigin="anonymous"></script>
     <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
     <!--daisy ui-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind external config file-->
     <script src="tailwind.config.js"></script>
+    
 </head>
 
-<body class="font-manrope">
- <h1>hello worlds</h1>
+<body class="font-manrope overflow-hidden  ">
+    <header class="bg-gray-100">
+        <nav class="w-11/12 mx-auto ">
+            <div class="navbar py-6 ">
+                <div class=" navbar-start ">
+                    <span class="w-7 h-7 text-center bg-arrow rounded-full flex justify-center items-center"><i
+                            class="fa-solid fa-arrow-right text-xl text-[rgb(28, 28, 28)] -rotate-45"></i></span>
+                    <a class=" px-1 text-txt text-3xl font-extrabold">Rinterio</a>
+                </div>
+                <div class=" navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-sm text-[#494949] font-extrabold">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+
+                    </ul>
+                </div>
+                <div class="md:w-full navbar-end flex gap-4 justify-end">
+                    <div class="h-full hidden lg:flex md:flex gap-4 justify-center items-center">
+                        <span class="w-8 h-8  bg-white rounded-full text-center flex justify-center items-center">
+                            <i class=" fa-solid fa-magnifying-glass text-lg  text-bars">
+                            </i>
+                        </span>
+                        <span class="w-8 h-8  bg-white rounded-full text-center flex justify-center items-center">
+                            <i class=" fa-solid fa-cart-shopping text-lg  text-bars">
+                            </i>
+                        </span>
+                        <div class="flex justify-center items-center bg-arrow px-3  py-2 rounded-full  text-center ">
+                            <a class="px-1 text-center text-txt md:text-base text-xl font-extrabold">Book Consult</a>
+                            <span
+                                class=" border border-red-400 w-8 h-8 text-center bg-black_ar rounded-full flex justify-center items-center">
+                                <i class="fa-solid fa-arrow-right text-white -rotate-45 text-xl"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class=" dropdown relative md:flex lg:hidden">
+                        <div tabindex="0" role="button" class="w-full flex justify-end  ">
+                            <span class="w-8 h-8 bg-white rounded-full text-center flex justify-center items-center">
+                                <i class=" fa-solid fa-bars text-lg  text-bars">
+                                </i>
+                            </span>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-4 z-[1] mt-3 w-32 p-2 shadow absolute -right-2 text-base text-[#494949] font-extrabold md:top-10 md:right-4">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact Us</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <div class="w-11/12 mx-auto grid cols-4 place-content-center place-items-center gap-4 py-10 text-center ">
+            <div class="w-3/4 ">
+                <img class="w-full" src="assets/banner.png" alt="home">
+            </div>
+            <h1 class="text-txt text-3xl md:text-5xl lg:text-5xl font-extrabold my-4">
+                A barn house of this design has a striking appearance
+            </h1>
+            <p class="text-base text-txt_2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
+                wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <div class="flex justify-center items-center mt-3 bg-arrow_2 px-5  py-4 rounded-full  text-center  ">
+                <a class="px-1 text-center text-txt md:text-base text-xl font-extrabold">View Details</a>
+                <span class="w-7 h-7 text-center bg-arrow rounded-full flex justify-center items-center"><i
+                        class="fa-solid fa-arrow-right text-xl text-[rgb(28, 28, 28)] -rotate-45"></i>
+                </span>
+            </div>
+
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 
 </html>
