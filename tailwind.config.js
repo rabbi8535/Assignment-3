@@ -6,6 +6,7 @@ tailwind.config = {
                'txt_2':'rgb(73, 73, 73)',
                 'arrow': 'rgb(171, 239, 95)',
                 'arrow_2':'rgba(171, 239, 95, 0.5)',
+                'arrow_3':'rgba(171, 239, 95, 0.2)',
                 'bars' : 'rgb(115, 115, 115)',
                 'black_ar' : 'rgb(28, 28, 28)',
                 'header_1': 'rgba(245, 245, 245)',
@@ -17,7 +18,8 @@ tailwind.config = {
                 'card_1': 'rgb(231, 193, 211)',
                 'card_2': 'rgb(239, 218, 110)',
                 'card_3': 'rgb(164, 218, 195)',
-                'card_4': 'rgb(119, 170, 234)'
+                'card_4': 'rgb(119, 170, 234)',
+                'card_5': 'rgb(233, 233, 233)'
 
             },
             /* custom font */
