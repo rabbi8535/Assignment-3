@@ -26,7 +26,13 @@ tailwind.config = {
             /* custom font */
             fontFamily: {
                 'manrope': ["Manrope", "sans-serif"]
-            }
+            },
+
+            /* custom image section */
+            backgroundImage: {
+                'discus': "url('assets/bg.jpg')",
+                
+              }
         }
     }
 }
