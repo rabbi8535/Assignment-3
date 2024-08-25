@@ -19,7 +19,8 @@ tailwind.config = {
                 'card_2': 'rgb(239, 218, 110)',
                 'card_3': 'rgb(164, 218, 195)',
                 'card_4': 'rgb(119, 170, 234)',
-                'card_5': 'rgb(233, 233, 233)'
+                'card_5': 'rgb(233, 233, 233)',
+                'card_6': 'rgb(144, 144, 144)',
 
             },
             /* custom font */
